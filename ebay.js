@@ -21,10 +21,8 @@ app.get("/", function(req, res){
 		if(response.statusCode == 200 && !error){
 			
 			var data = body;
-//			console.log(data);
-			console.log(data[0]);
-			console.log(data[1]);
-			console.log(data[2]);
+			//console.log(typeof data === 'string');
+			console.log(data);
 
 //			console.log(data['findItemsByKeywordsResponse']);
 			 
